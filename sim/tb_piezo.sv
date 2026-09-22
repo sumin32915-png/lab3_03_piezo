@@ -7,7 +7,7 @@ integer cycles, last_cycle=-1, edges=0;
 always #10 clk_50mhz=~clk_50mhz;
 
 // 시뮬레이션을 위해 파라미터를 낮추어 설정 (CLK_HZ=1000, TONE_HZ=100)
-lab3_piezo #(.CLK_HZ(1000), .TONE_HZ(50)) dut(
+lab3_piezo #(.CLK_HZ(1000), .TONE_HZ(100)) dut(
     .clk_50mhz(clk_50mhz),
     .rst_p(rst_p),
     .piezo(piezo)
