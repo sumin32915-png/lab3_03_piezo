@@ -9,3 +9,16 @@ C:\Users\sumin\lab3_21_piezo\sim\tb_piezo.sv:37: $finish called at 551000 (1ps)
 시뮬레이션 실행 완료. 진리표·자기검사·파형으로 회로의 정답 여부를 확인하세요.
 WAVE C:\Users\sumin\lab3_21_piezo\build\sim\wave.vcd
  *  Terminal will be reused by tasks, press any key to close it. 
+
+ [2] FAIL 로그
+RUN C:\msys64\mingw64\bin\iverilog.EXE -g2012 -Wall -I C:\Users\sumin\lab3_21_piezo\src -I C:\Users\sumin\lab3_21_piezo\sim -s tb_piezo -o C:\Users\sumin\lab3_21_piezo\build\sim\run-7d478ed7fd0b4b7eb2d7d4868d8e08d9\sim.vvp C:\Users\sumin\lab3_21_piezo\src\lab3_piezo.v C:\Users\sumin\lab3_21_piezo\sim\tb_piezo.sv
+
+RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\lab3_21_piezo\build\sim\run-7d478ed7fd0b4b7eb2d7d4868d8e08d9\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+FATAL: C:\Users\sumin\lab3_21_piezo\sim\tb_piezo.sv:29: half period=10
+       Time: 431000  Scope: tb_piezo
+
+ERROR: 종료 코드 1: C:\Users\sumin\lab3_21_piezo\build\sim\run-7d478ed7fd0b4b7eb2d7d4868d8e08d9\simulation.log
+
+ *  The terminal process "C:\Users\sumin\AppData\Local\Microsoft\WindowsApps\python.EXE 'tools/fpga_lab.py', 'simulate'" terminated with exit code: 1. 
+ *  Terminal will be reused by tasks, press any key to close it. 
