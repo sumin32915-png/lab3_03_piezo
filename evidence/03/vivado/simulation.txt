@@ -1,0 +1,6 @@
+# run 1000ns
+LAB3_PIEZO_PASS edges=5
+$finish called at time : 551 ns : File "C:/Users/sumin/lab3_21_piezo/sim/tb_piezo.sv" Line 37
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_piezo_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1751.867 ; gain = 0.000
